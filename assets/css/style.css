@@ -15,13 +15,22 @@
 body {
     color: var(--blue);
     font-family: "Montserrat", serif;
+    /*background-color: var(--darkb);*/
 }
 
 header {
     display: flex;
-    justify-content: space-around;
-    top: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /*top: 0;*/
     background-color: var(--peach);
+    border-bottom: 10px solid var(--darkb);
+    padding: 20px; 
+}
+
+header a {
+    text-decoration: none;
+    color: var(--blue);
 }
 
 header h1 {
@@ -29,11 +38,6 @@ header h1 {
     font-size: 36px;
     color: var(--peach);
     margin: 0;
-}
-
-header a {
-    text-decoration: none;
-    color: var(--blue);
 }
 
 header nav ul {
@@ -45,8 +49,8 @@ header nav ul {
 }
 
 header nav ul li a {
+    display: flex;
     padding: 10px 15px;
     font-weight: lighter;
-    /*font-size: 1.55vw;*/
-    border-bottom: 3px solid;
+    border-bottom: 1px solid;
 }
