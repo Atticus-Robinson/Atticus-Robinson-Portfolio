@@ -1,0 +1,52 @@
+:root {
+    --blue: #4a7c99;
+    --lav: #bdbdca;
+    --peach: #f5bdaa;
+    --orange: #ff773e;
+    --darkb: #235a5a;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--blue);
+    font-family: "Montserrat", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    background-color: var(--peach);
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--peach);
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--blue);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    /*font-size: 1.55vw;*/
+    border-bottom: 3px solid;
+}
