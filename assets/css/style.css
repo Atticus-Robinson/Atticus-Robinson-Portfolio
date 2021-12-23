@@ -12,6 +12,14 @@
     box-sizing: border-box;
 }
 
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
 body {
     color: #333333;
     font-family: "Montserrat", serif;
@@ -56,19 +64,23 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/30-1.jpg");
-    background-size: contain;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    background-attachment: fixed;
-    padding: 50%; 
+    position: relative;
+    text-align: center;
+    color: white;
+    border-bottom: 10px solid var(--lav);
+
+}
+
+.hero img{
+    display: block;   
 }
 
 .hero-text{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 0.8vw; 
+    background-color: var(--darkb);
     color: white;
-    text-align: left;
-    width: 100%;
 }
