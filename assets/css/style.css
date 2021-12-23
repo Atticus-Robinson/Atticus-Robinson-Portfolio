@@ -23,14 +23,12 @@ html, body{
 body {
     color: #333333;
     font-family: "Montserrat", serif;
-    /*background-color: var(--lav);*/
 }
 
 header {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /*top: 0;*/
     background-color: var(--darkb);
     border-bottom: 10px solid var(--lav);
     padding: 20px; 
@@ -68,14 +66,25 @@ header nav ul li a {
     text-align: center;
     color: white;
     border-bottom: 10px solid var(--lav);
-
 }
 
-.hero img{
+.hero img {
     display: block;   
 }
 
-.hero-text{
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
     position: absolute;
     bottom: 0px;
     left: 0px;
@@ -84,3 +93,32 @@ header nav ul li a {
     background-color: var(--darkb);
     color: white;
 }
+
+.about-me {
+    padding: 50px 50px 50px 0px;
+}
+.about-me p {
+    line-height: 1.2;
+    width: 75%;
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 36px;
+    border-right: 3px solid;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    width: 15%;
+    height: 20%;
+}
+
+.primary-border {
+    border-color: var(--orange);
+}
+
+.secondary-border {
+    border-color: var(--blue);
+}
+
