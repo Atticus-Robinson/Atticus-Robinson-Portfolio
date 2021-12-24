@@ -61,11 +61,16 @@ header nav ul li a {
     border-bottom: 1px solid;
 }
 
+section {
+    padding: 90px 50px 50px 0;
+}
+
 .hero {
     position: relative;
     text-align: center;
     color: white;
     border-bottom: 10px solid var(--lav);
+    padding: 0;
 }
 
 .hero img {
@@ -90,13 +95,12 @@ header nav ul li a {
     left: 0px;
     text-align: center;
     font-size: 0.8vw; 
-    background-color: var(--darkb);
+    background-color: var(--lav);
     color: white;
+    border-radius: 0px 5px 0px 0px;
+    padding: 1.5px;
 }
 
-.about-me {
-    padding: 50px 50px 50px 0px;
-}
 .about-me p {
     line-height: 1.2;
     width: 75%;
@@ -122,3 +126,24 @@ header nav ul li a {
     border-color: var(--blue);
 }
 
+.work {
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.tile {
+    width: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.tile img {
+    width: 35%;
+    height: 90%;
+}
+
+.tile-text {
+    height: 10%;
+}
