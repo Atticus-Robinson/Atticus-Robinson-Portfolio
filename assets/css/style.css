@@ -62,7 +62,7 @@ header nav ul li a {
 }
 
 section {
-    padding: 90px 50px 50px 0;
+    padding: 90px 40px 30px 0;
 }
 
 .hero {
@@ -86,7 +86,7 @@ section {
 .flex-row {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .hero-text {
@@ -112,10 +112,12 @@ section {
 .section-title {
     font-size: 36px;
     border-right: 3px solid;
-    text-align: center;
+    text-align: right;
     margin: 0 auto 0 auto;
     width: 15%;
     height: 20%;
+    white-space: nowrap;
+    padding-right: 10px;
 }
 
 .primary-border {
@@ -158,4 +160,12 @@ section {
     color: white;
     border-radius: 0px 5px 0px 0px;
     padding: 1.5px;
+}
+
+.contact-me p {
+    width: 75%;
+}
+
+footer {
+    text-align: right;   
 }
