@@ -131,19 +131,31 @@ section {
     width: 75%;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-content: space-around;
 }
 
 .tile {
-    width: 50%;
+    width: 32%;
     text-align: center;
     vertical-align: middle;
+    position: relative;
+    margin-bottom: 10px;
 }
 
 .tile img {
-    width: 35%;
-    height: 90%;
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .tile-text {
-    height: 10%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    text-align: center;
+    font-size: 0.8vw; 
+    background-color: var(--lav);
+    color: white;
+    border-radius: 0px 5px 0px 0px;
+    padding: 1.5px;
 }
