@@ -169,7 +169,7 @@ section {
 }
 
 .work li:last-child {
-    max-width: none;
+    margin: 0 auto;
 }
 
 .overlay {
@@ -181,7 +181,6 @@ section {
     height: 100%;
     width: 100%;
     opacity: 0;
-    transition: .5 ease;
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -286,5 +285,8 @@ footer h4 {
 @media screen and (max-width: 575px) {
     .hero-text {
         font-size: 10px;
+    }
+    .my-work {
+        padding:  10px;
     }
 }
