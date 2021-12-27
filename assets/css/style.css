@@ -30,7 +30,7 @@ header {
     justify-content: space-evenly;
     flex-wrap: wrap;
     background-color: var(--darkb);
-    border-bottom: 10px solid var(--lav);
+    border-bottom: 10px solid var(--peach);
     padding: 20px; 
 }
 
@@ -42,7 +42,6 @@ header a {
 header h1 {
     font-weight: bold;
     font-size: 36px;
-    color: var(--peach);
     margin: 0;
 }
 
@@ -62,25 +61,37 @@ header nav ul li a {
 }
 
 section {
-    padding: 90px 40px 30px 0;
+    padding: 60px 0;
+    margin: 0 10%;
 }
 
 .hero {
     position: relative;
     text-align: center;
     color: white;
-    border-bottom: 10px solid var(--lav);
+    border-bottom: 10px solid var(--peach);
     padding: 0;
+    margin: 0;
+    background-image: url(../images/BW-6.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 75%;
 }
 
-.hero img {
-    display: block;   
+.hero-text {
+    bottom: 0;
+    position: absolute;
+    text-align: center;
+    margin: auto;
 }
 
 .flex-column {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
 }
 
 .flex-row {
@@ -89,16 +100,10 @@ section {
     align-items: flex-start;
 }
 
-.hero-text {
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    text-align: center;
-    font-size: 0.8vw; 
-    background-color: var(--lav);
+.about-me {
+    background-color: var(--blue);
+    margin: 0;
     color: white;
-    border-radius: 0px 5px 0px 0px;
-    padding: 1.5px;
 }
 
 .about-me p {
@@ -107,17 +112,18 @@ section {
     font-size: 18px;
     margin: 0;
     text-align: center;
+
 }
 
 .section-title {
-    font-size: 36px;
-    border-right: 3px solid;
-    text-align: right;
-    margin: 0 auto 0 auto;
-    width: 15%;
-    height: 20%;
+    font-size: 32px;
+    border-bottom: 3px solid;
+    text-align: left;
+    margin: 0 auto 20px auto;
+    width: auto;
+    height: auto;
     white-space: nowrap;
-    padding-right: 10px;
+    padding: 0 5px;
 }
 
 .primary-border {
@@ -131,20 +137,28 @@ section {
 .work {
     display: flex;
     width: 75%;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
     align-content: space-around;
 }
 
 .tile {
-    width: 32%;
+    width: 33%;
     text-align: center;
     vertical-align: middle;
     position: relative;
-    margin-bottom: 10px;
+    margin: 5px;
 }
 
-.tile img {
+.big-tile {
+    width: 80%;
+    height: auto;
+    display: block;
+    position: relative;
+    margin: 5px;
+}
+
+.work img {
     width: 100%;
     height: auto;
     display: block;
@@ -162,14 +176,50 @@ section {
     padding: 1.5px;
 }
 
+img:hover {
+    opacity: 0.2;
+}
+
+.contact-me {
+    background-color: var(--darkb);
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.contact-me h2 {
+    border-bottom: 0 none;
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
 .contact-me p {
     line-height: 1.2;
     width: 75%;
-    font-size: 18px;
+    font-size: 14px;
     margin: 0;
     text-align: center;
 }
 
 footer {
-    text-align: right;   
+    text-align: right;  
+    background-color: var(--peach);
+    color: white; 
+    font-size: 12px;
+}
+
+footer h4 {
+    padding: 5px;
+}
+
+@media screen and (max-width: 980px) {
+    
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
 }
