@@ -106,13 +106,18 @@ section {
     color: white;
 }
 
+.about-me img {
+    width: 35%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
 .about-me p {
     line-height: 1.2;
     width: 75%;
     font-size: 18px;
     margin: 0;
     text-align: center;
-
 }
 
 .section-title {
