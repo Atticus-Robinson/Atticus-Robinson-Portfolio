@@ -70,21 +70,18 @@ section {
     text-align: center;
     color: white;
     border-bottom: 10px solid var(--peach);
-    padding: 0;
     margin: 0;
     background-image: url(../images/BW-6.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center;
     height: 80%;
 }
 
 .hero-text {
     bottom: 0;
     position: absolute;
-    text-align: center;
-    margin: auto;
+    font-size: 1vw;
 }
 
 .flex-column {
@@ -110,6 +107,7 @@ section {
     width: 35%;
     height: auto;
     margin-bottom: 20px;
+    border: 0.8vw solid var(--peach);
 }
 
 .about-me p {
@@ -153,17 +151,7 @@ section {
     flex-grow: 1;
     max-width: 49%;
     position: relative;
-}
-
-.big-tile {
-    flex-grow: 2;
-    height: auto;
-    display: block;
-    position: relative;
-}
-
-.white-background {
-    outline: grey 1px solid;
+    outline: 1px grey solid;
 }
 
 .work img {
@@ -186,10 +174,6 @@ section {
     width: 100%;
     opacity: 0;
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.big-tile:hover .overlay {
-    opacity: 1;
 }
 
 .tile:hover .overlay  {
