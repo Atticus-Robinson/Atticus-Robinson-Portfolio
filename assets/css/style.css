@@ -162,6 +162,10 @@ section {
     position: relative;
 }
 
+.white-background {
+    outline: grey 1px solid;
+}
+
 .work img {
     width: 100%;
     height: auto;
