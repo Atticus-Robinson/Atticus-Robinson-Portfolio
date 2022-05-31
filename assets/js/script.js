@@ -1,4 +1,9 @@
 const linksObject = {
+  BountyBook: {
+    text: "Horrorscope",
+    link: "https://bountybook.herokuapp.com/",
+    image: "./assets/images/cowboy-01.jpg",
+  },
   Horrorscope: {
     text: "Horrorscope",
     link: "https://horrorscopes-project.herokuapp.com/",
