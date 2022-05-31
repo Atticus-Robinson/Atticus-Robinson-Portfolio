@@ -1,4 +1,9 @@
 const linksObject = {
+  Horrorscope: {
+    text: "Horrorscope",
+    link: "https://horrorscopes-project.herokuapp.com/",
+    image: "./assets/images/primary-star-bg-2.jpg",
+  },
   newJobs: {
     text: "newJobs(you) - Job Aggregator",
     link: "https://spencerhulse.github.io/newJobs-you/landingpage.html",
@@ -43,7 +48,7 @@ const linksObject = {
     text: "Hiking",
     link: "https://www.instagram.com/atticus.robinson/?hl=en",
     image: "./assets/images/30-5.jpg",
-  }
+  },
 };
 
 for (const increment in linksObject) {
